@@ -1,10 +1,15 @@
 #!/usr/bin/python3
-def weight_average(my_list=[]):
-    if len(my_list) == 0:
-        return 0
-    sum_score = 0
-    sum_weight = 0
-    for i in my_list:
-        sum_score += i[0] * i[1]
-        sum_weight += i[1]
-    return sum_score / sum_weight
+def best_score(a_dictionary):
+    """
+    Return the key with the highest value in a dictionary
+    If no score found, return None
+    """
+    if a_dictionary is None:
+        return None
+    best_key = None
+    best_score = 0
+    for key, value in a_dictionary.items():
+        if value > best_score:
+            best_score = value
+            best_key = key
+    return best_key
