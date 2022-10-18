@@ -1,7 +1,6 @@
 # Python - Test-driven development
 Test-Driven Development (TDD) is a methodology in software development that focuses on an iterative 
-development cycle where the emphasis is placed on writing test cases before the actual feature or fun
-ction is written.
+development cycle where the emphasis is placed on writing test cases before the actual feature or function is written.
 
 Test Driven Development: `docstring`
 and `unittest` in Python.
