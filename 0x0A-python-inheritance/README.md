@@ -97,6 +97,5 @@ Prototypes for functions written in this project:
     * If an attribute cannot be added, a `TypeError` exception is raised with the
     message `can't add new attribute`.
 
-### AUTHOR
-
-### BRIAN OCHIENG
+### Author
+* **Brian Ochieng
